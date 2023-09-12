@@ -1,0 +1,11 @@
+{
+
+    "daily": ["test1.py", "test3.py"],
+
+    "weekly": ["test2.py", "weeklyscript2.py"],
+
+    "customruns": [{"scripts":["cust1_1.py", "cust1_2.py"], "rundatetime":"7-20"}, {"scripts":["cust2_1.py", "cust2_2.py"], "rundatetime": "1-1"}] ,
+
+    "logfile_dir_path": "/logs"
+
+}
