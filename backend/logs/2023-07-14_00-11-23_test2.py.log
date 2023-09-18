@@ -2,7 +2,7 @@
     "Time": "2023-08-10 00:24:14,216",
     "File": "ca_import_behests.py",
     "Function": "insert_behest",
-    "Type": "WARNING",
+    "Type": "INFO",
         "Message": 
                 {
                 "Subject": "Behest insertion failed",

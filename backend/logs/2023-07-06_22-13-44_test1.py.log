@@ -8,4 +8,37 @@
                 "Subject": "Behest insertion failed",
                 "SQL": "INSERT INTO Behests (official, datePaid, payor, amount, payee, description, purpose, noticeReceived, sessionYear, state)ALUES (112, None, 1091, 250, 10346, Activities to encourage and facilitate women engaging in the political system and participating in government, Charitable, None, 2017, 'CA')"
                 }
-}
+}   
+{
+    "Time": "2023-08-09 00:24:14,216",
+    "File": "ca_import_behests.py",
+    "Function": "insert_behest",
+    "Type": "INFO",
+        "Message": 
+                {
+                "Subject": "Behest insertion failed",
+                "SQL": "INSERT INTO Behests (official, datePaid, payor, amount, payee, description, purpose, noticeReceived, sessionYear, state)ALUES (112, None, 1091, 250, 10346, Activities to encourage and facilitate women engaging in the political system and participating in government, Charitable, None, 2017, 'CA')"
+                }
+}   
+{
+    "Time": "2023-08-09 00:24:14,216",
+    "File": "ca_import_behests.py",
+    "Function": "insert_behest",
+    "Type": "INFO",
+        "Message": 
+                {
+                "Subject": "Behest insertion failed",
+                "SQL": "INSERT INTO Behests (official, datePaid, payor, amount, payee, description, purpose, noticeReceived, sessionYear, state)ALUES (112, None, 1091, 250, 10346, Activities to encourage and facilitate women engaging in the political system and participating in government, Charitable, None, 2017, 'CA')"
+                }
+}   
+{
+    "Time": "2023-08-09 00:24:14,216",
+    "File": "ca_import_behests.py",
+    "Function": "insert_behest",
+    "Type": "INFO",
+        "Message": 
+                {
+                "Subject": "Behest insertion failed",
+                "SQL": "INSERT INTO Behests (official, datePaid, payor, amount, payee, description, purpose, noticeReceived, sessionYear, state)ALUES (112, None, 1091, 250, 10346, Activities to encourage and facilitate women engaging in the political system and participating in government, Charitable, None, 2017, 'CA')"
+                }
+}   
