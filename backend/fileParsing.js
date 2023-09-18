@@ -3,6 +3,7 @@
 const path = require('path');
 
 const fs2 = require("fs");
+
 function readJSONFileSync(filePath) {
     try {
       const data = fs2.readFileSync(filePath, 'utf8');
@@ -60,5 +61,25 @@ function readConfig(configName) {
         console.error(error.message);
     }
 }
+const lineByLine = require("n-readlines");
+function readFile(fileName) {
+    const liner = new lineByLine(fileName);
+    let line;
+    let lineNum = 0;
+    let completeJsons = []
+    let currentStr = ""
+    while (line = liner.next()) {
+        let lineStr = line.toString('ascii').trimEnd();
+        if (lineStr != "NoneType: None") {
+            currentStr = currentStr + lineStr;
+        }
+        if (lineStr === '}') {
+            completeJsons.push(JSON.parse(currentStr));
+            currentStr = "";
+        }
+        lineNum++;
+    }
+    completeJsons.forEach((json) => console.log(json["Type"]));
+}
 
-
+readFile("logs/2023-09-12_18-04-57_ca_import_authors.py.log");
